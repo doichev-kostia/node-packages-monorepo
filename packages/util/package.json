@@ -1,0 +1,17 @@
+{
+  "name": "@modules/util",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "exports": {
+    "./*": "./src/*.ts",
+    "./*.js": "./src/*.ts",
+    "./tables/*": "./src/tables/*.table.ts"
+  },
+  "devDependencies": {
+    "@doichev-kostia/config": "^0.0.1",
+    "typescript": "^5.4.3"
+  }
+}

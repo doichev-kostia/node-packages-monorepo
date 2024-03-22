@@ -1,0 +1,9 @@
+{
+  "extends": "@doichev-kostia/config/tsconfig",
+  "compilerOptions": {
+    "outDir": "build"
+  },
+  "include": [
+    "src"
+  ]
+}

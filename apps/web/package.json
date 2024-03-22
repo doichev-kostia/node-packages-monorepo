@@ -1,0 +1,14 @@
+{
+  "name": "@modules/web",
+  "type": "module",
+  "scripts": {
+    "start": "node --import=tsx ./src/main.ts"
+  },
+  "devDependencies": {
+    "@doichev-kostia/config": "^0.0.1",
+    "@modules/util": "workspace:^",
+    "esbuild": "^0.20.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  }
+}
